@@ -1,0 +1,27 @@
+################################################################################
+#
+# This file is for keeping editor configuration consistent between developers
+# For more info on the various settings that can be added, see the docs
+# at http://EditorConfig.org
+#
+# You may need to install a plugin for your editor of choice to read this
+# file and apply the settings:
+#
+# Sublime Text:   https://github.com/sindresorhus/editorconfig-sublime
+# VIM:            https://github.com/editorconfig/editorconfig-vim
+#
+# If you're using RubyMine, it should work out of the box.
+#
+################################################################################
+
+# top-most EditorConfig file
+root = true
+
+# Settings to apply to all files:
+[*]
+charset                  = utf-8
+end_of_line              = lf
+insert_final_newline     = true
+indent_style             = space
+indent_size              = 2
+trim_trailing_whitespace = true
